@@ -1,0 +1,84 @@
+body{
+    background-color: white;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+header{
+    text-align: center;
+    background: rgb(245, 150, 166);  
+}
+ul{
+    margin:0px;
+    padding:30px;
+    list-style-type: none;
+    
+}
+li{
+    display: inline-block;
+    margin: 0 30px -90px 30px;
+}
+a {
+    text-decoration: none;
+    color:rgb(168, 98, 111);
+}
+a:hover {
+    text-decoration: underline;
+    color:rgb(127, 245, 229);
+}
+header .logo a{
+    background-image: url("Image/Shop+Logo.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 90px;
+    position: relative;
+    text-indent: -9999999;
+    top: -20px;
+    width: 200px;
+}
+h1 {
+    background-image: url("Image/wp7908536.jpeg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-indent: -999999999;
+    height:450px;
+    margin:0 0 0 0;
+}
+section{
+    background:white;
+    color: rgb(240, 94, 118);
+    padding:50px;
+    display: flex;
+    flex-direction: row;
+}
+.features {
+    background:white;
+    color:grey;
+    padding:20px;
+    display:flex;
+    flex-direction: row;
+}
+.features figure{
+    color:rgb(245, 150, 166);
+    margin: auto;
+    text-transform: uppercase;
+    width:50%;
+    text-align:center;
+}
+.features figure img {
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: rgb(245, 150, 166) 0 0 15px;
+    width:300px;
+}
+footer {
+    background: rgb(168, 98, 111);
+    color: white;
+    font-size: 13px;
+    padding:20px 20px;
+    text-align: center;
+    margin: 70px 0px 0px 0px;
+}
